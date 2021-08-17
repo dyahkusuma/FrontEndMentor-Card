@@ -1,0 +1,122 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%)
+
+## Typography
+
+### Body Copy
+
+- Font size (name and stats): 18px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700 */
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    background-size: 600px;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.behind1{
+    position: absolute;
+    width: 1200px;
+    top: -600px;
+    left: -600px;
+}
+
+.behind2{
+    position: absolute;
+    width: 1200px;
+    left: 600px;
+    top: 100px;
+}
+
+/* .behind2{
+    background-position: right bottom;
+    background-size: 500px;
+} */
+
+.kotak{
+    width: 350px;
+    height: 375px;
+    background-color: white;
+    color: aliceblue;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+.background img{
+    border-radius: 5px 5px 0px 0px;
+    width: auto;
+}
+
+.profile img{
+    margin: auto;
+    width: 95px;
+    height: 95px;
+    border-radius: 95px;
+    display: block;
+    margin: auto;
+    margin-top: -50px;
+    border : solid 5px white;
+    position: relative;
+    z-index: 1;
+}
+
+
+.profile p{
+    text-align: center;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+span{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+
+.row p{
+    color: hsl(229, 23%, 23%);
+    text-align: center;
+    font-weight: 700;
+}
+
+.row {
+    display: flex;
+}
+
+.column{
+    width: 33.3%;
+    text-align: center;
+}
+/* .etc{
+    display: inline-flex;
+    margin: auto;
+    color: hsl(227, 10%, 46%);
+    text-align: center;
+} */
